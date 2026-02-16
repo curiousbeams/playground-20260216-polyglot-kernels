@@ -1,0 +1,10 @@
+_build
+~*.docx
+
+.ipynb_checkpoints/
+
+.DS_Store
+
+*.pyc
+Manifest.toml
+uv.lock

@@ -1,0 +1,17 @@
+[project]
+name = "playground-20260216-polyglot-kernels"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "cmasher>=1.9.2",
+    "colorspacious>=1.1.2",
+    "ipympl>=0.10.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.5.4",
+    "jupyterlab-myst>=2.6.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "webio-jupyter-extension>=0.1.0",
+]
