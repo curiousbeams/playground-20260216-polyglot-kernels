@@ -4,14 +4,14 @@ title: Polyglot Kernels
 
 ## Python
 
-:::{figure} #python-output
+:::{figure} #app:python-output
 :name: fig_python
 Python kernel output
 :::
 
 ## Julia
 
-:::{figure} #julia-output
+:::{figure} #app:julia-output
 :name: fig_julia
 Julia kernel output
 :::
