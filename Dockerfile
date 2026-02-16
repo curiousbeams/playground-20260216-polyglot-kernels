@@ -5,7 +5,7 @@ FROM python:3.14-slim-bookworm
 COPY --from=ghcr.io/astral-sh/uv /uv /uvx /bin/
 
 # Copy Julia from official image
-COPY --from=julia:1.10 /usr/local/julia /usr/local/julia
+COPY --from=julia:1.12 /usr/local/julia /usr/local/julia
 ENV PATH=/usr/local/julia/bin:$PATH
 
 # uv optimization env variables
